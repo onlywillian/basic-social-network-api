@@ -25,8 +25,6 @@ namespace MySocial.UnitTests.Contracts.Documents
             .RuleFor(p => p.Body, f => f.Lorem.Paragraphs(3))
             .RuleFor(p => p.Visibility, f => f.PickRandom<Visibilitys>())
             .RuleFor(p => p.ImageUrl, f => f.Image.PicsumUrl())
-            .RuleFor(p => p.CreatedAt, f => f.Date.Recent())
-            .RuleFor(p => p.UpdatedAt, f => f.Date.Recent())
             .RuleFor(p => p.AuthorId, f => f.Random.Int(min: 1, max: 100));
     }
 }

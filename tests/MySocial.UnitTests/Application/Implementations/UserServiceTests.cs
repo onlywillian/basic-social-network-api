@@ -15,10 +15,11 @@ namespace MySocial.UnitTests.Application.Implementations
         private readonly Mock<IFriendshipRepository> _friendshipRepository = new();
         private readonly IUserService _userService;
         private readonly UserFakers _userFakers = new();
+        private readonly HttpClient _httpClient = new();
 
         public UserServiceTests()
         {
-            _userService = new UserService(_userRepository.Object, _friendshipRepository.Object);
+            _userService = new UserService(_userRepository.Object, _friendshipRepository.Object, _httpClient);
         }
 
         [Fact]
