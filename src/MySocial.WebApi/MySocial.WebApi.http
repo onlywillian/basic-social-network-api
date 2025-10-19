@@ -1,0 +1,6 @@
+@MySocial.WebApi_HostAddress = http://localhost:5095
+
+GET {{MySocial.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

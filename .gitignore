@@ -1,0 +1,33 @@
+# Ignore diretórios do Visual Studio
+**/.vs/
+**/.vscode/
+
+# Ignore binários e diretórios de build
+**/bin/
+**/obj/
+
+# Ignore pacotes NuGet
+**/packages/
+**/.nuget/
+
+# Ignore arquivos de log, temporários e cache
+**/*.log
+**/*.tmp
+**/.DS_Store
+**/.idea/
+
+# Ignore arquivos do usuário
+**/*.user
+**/*.suo
+**/*.sln.docstates
+**/*.userosscache
+**/*.userprefs
+
+# Ignore arquivos de backup
+**/*~
+**/.bak
+**/*.old
+**/*.orig
+
+# .NET
+**/*.dll
