@@ -5,11 +5,11 @@ A simple .NET API for a social network, built for learning and experimentation.
 This project demonstrates basic concepts such as RESTful API design, entity relationships, and authentication, using the .NET platform.
 ## Stack
 
-- C# – Linguagem principal do projeto, utilizada para o desenvolvimento da API.
-- .NET 8 (ASP.NET Core) – Framework moderno da Microsoft para construção de aplicações web e APIs rápidas e escaláveis.
-- Entity Framework Core – ORM (Object-Relational Mapper) que simplifica o acesso e manipulação do banco de dados através de entidades C#.
-- SQLite – Banco de dados leve e simples, ideal para ambientes de estudo e desenvolvimento local.
-- Swagger (Swashbuckle) – Ferramenta para documentação e teste interativo da API, facilitando a visualização dos endpoints e parâmetros.
+- C# – Main programming language used for API development.
+- .NET 8 (ASP.NET Core) – Microsoft’s modern framework for building fast and scalable web applications and APIs.
+- Entity Framework Core – Object-Relational Mapper (ORM) that simplifies database access and manipulation through C# entities.
+- SQLite – Lightweight and simple database, ideal for learning and local development environments.
+- Swagger (Swashbuckle) – Tool for interactive API documentation and testing, making it easier to explore endpoints and parameters.
 
 
 🚀 Installing & Running
