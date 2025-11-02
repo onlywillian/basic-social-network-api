@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11111.16 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{80DACE41-359E-48F3-A8FD-59189B2D4294}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySocial.Infrastructure", "src\MySocial.Infrastructure\MySocial.Infrastructure.csproj", "{C2F2C25D-E971-46FF-8362-17121B09D769}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocial.UnitTests", "tests\MySocial.UnitTests\MySocial.UnitTests.csproj", "{8D1FCE7C-6C9E-4E20-9417-F10EE3AD261C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTests", "tests\FunctionalTests\FunctionalTests.csproj", "{A1953F35-AD0A-40C3-95C1-BE445C53E3A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{8D1FCE7C-6C9E-4E20-9417-F10EE3AD261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1FCE7C-6C9E-4E20-9417-F10EE3AD261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1FCE7C-6C9E-4E20-9417-F10EE3AD261C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1953F35-AD0A-40C3-95C1-BE445C53E3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1953F35-AD0A-40C3-95C1-BE445C53E3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1953F35-AD0A-40C3-95C1-BE445C53E3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1953F35-AD0A-40C3-95C1-BE445C53E3A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
